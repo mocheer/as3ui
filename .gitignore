@@ -1,4 +1,6 @@
 # Build and Release Folders
+libs_backup/
+backup/
 bin/
 bin-debug/
 bin-release/

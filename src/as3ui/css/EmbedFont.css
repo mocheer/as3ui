@@ -1,0 +1,30 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+/**
+嵌入字体会把字体文件编译到应用中，所以会增大文件体积，尤其是中文字体，所以慎用。
+另外，可以用unicode-range来限定应用的字体文字，来减小文件体积。
+嵌入字体用@font-face标签，可以嵌入多个。注意，如果需要字体加粗，必须同时嵌入正常和粗体两个字体，字体名字相同，并设置粗体字体的fontWeight为bold。
+模板：
+@font-face 
+{   
+	src:url("../resources/fonts/MapInfo Oil&Gas.TTF");本地字体路径
+	font-family: swz;  字体别名
+   	font-style:italic; 字体倾斜
+	font-weight:bold   字体粗细
+	advancedAntiAliasing: true;字体防锯齿
+	unicode-range:U+AE5F,U+6F8F,U+C596,U+D19E,U+0001-U+0010;字体范围
+}
+*/
+@font-face 
+{   
+	src:url("../res/fonts/MapInfo Oil&Gas.TTF");
+	font-family: swz;   
+	advancedAntiAliasing: true;
+}
+@font-face 
+{   
+	src:url("../res/fonts/StrongMapSymbols.TTF");   
+	font-family: StrongMapSymbols;   
+	advancedAntiAliasing: true;   
+}
