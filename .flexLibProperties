@@ -42,7 +42,6 @@
     <classEntry path="as3ui.dn.factory.ShapeFactory"/>
     <classEntry path="as3ui.dn.component.button.ImageButton"/>
     <classEntry path="as3ui.dn.encode.JPGEncoder"/>
-    <classEntry path="as3ui.dn.control.tween.core.PropTween"/>
     <classEntry path="as3ui.dn.component.load.SWFLoader"/>
     <classEntry path="as3ui.dn.component.DrawHandler"/>
     <classEntry path="as3ui.dn.component.progress.Preloader"/>
