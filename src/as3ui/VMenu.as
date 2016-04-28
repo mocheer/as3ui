@@ -9,7 +9,7 @@ package as3ui
 	import mx.core.UIComponent;
 	
 	import as3ui.evt.MenuEvt;
-	import as3ui.ex.CheckBoxEx;
+	import as3ui.ex.checkbox.CheckBoxEx;
 	import as3ui.ex.RadioButtonEx;
 
 	public class VMenu extends Menu

@@ -39,7 +39,9 @@ package as3ui
 		{
 			super();
 		}
-		
+		/**
+		 * 
+		 */
 		override protected function createChildren():void
 		{
 			if(!m_oHeaderText)
@@ -57,7 +59,9 @@ package as3ui
 				addChild(m_oTileText);
 			}
 		}
-		
+		/**
+		 * 
+		 */
 		override protected function updateDisplayList(unscaledWidth:Number, unscaledHeight:Number):void
 		{
 			if(m_oHeaderText)
